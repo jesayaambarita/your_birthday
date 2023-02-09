@@ -6,6 +6,7 @@ const canvasC = document.getElementById('c');
 const config = {
   birthdate: 'Feb 22, 2023',
   name: 'Mirelda Patrecia Sihotang'
+  lanjut: 'Semoga Dilancarkan Kuliah nya'
 };
 
 function hideEverything() {
@@ -48,7 +49,7 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name],
+      strings: ['HAPPY', 'BIRTHDAY!', config.name, config.lanjut],
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
