@@ -7,6 +7,7 @@ const config = {
   birthdate: 'Feb 22, 2023',
   name: 'Mirelda Patrecia Sihotang'
   lanjut: 'Semoga Dilancarkan Kuliah nya'
+  kado: 'Kado Menyusul Ya Sayang'
 };
 
 function hideEverything() {
@@ -49,7 +50,7 @@ x = setInterval(function() {
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-      strings: ['HAPPY', 'BIRTHDAY!', config.name, config.lanjut],
+      strings: ['HAPPY', 'BIRTHDAY!', config.name, config.lanjut, config.kado],
       charSize: 30,
       charSpacing: 35,
       lineHeight: 40,
